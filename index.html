@@ -15,6 +15,7 @@
             <div class="nav-links">
                 <a href="#store">Store</a>
                 <a href="#tiers">Tiers</a>
+                <a href="#portfolio">Portfolio</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
@@ -31,7 +32,7 @@
             </div>
         </header>
 
-        <!-- Pricing Tiers Carousel (Replacing Products) -->
+        <!-- Pricing Tiers Carousel -->
         <section class="carousel-section" id="tiers">
             <div class="section-header">
                 <h2><span>The latest.</span> Take a look at our web tiers.</h2>
@@ -40,63 +41,121 @@
             <div class="carousel-container">
                 <button class="scroll-btn left" onclick="scrollCarousel('tier-carousel', -1)"><i class="fas fa-chevron-left"></i></button>
                 <div class="carousel" id="tier-carousel">
+                    
                     <!-- Starter Card -->
                     <div class="card dark-card">
                         <p class="card-eyebrow">NEW</p>
                         <h3 class="card-title">Starter Web</h3>
-                        <p class="card-desc">A solid foundation.</p>
                         <p class="card-price">From ₹6,599.00*</p>
-                        <div class="card-links">
-                            <a href="https://avixvvv.github.io/hypernova-ai/" target="_blank" class="btn">View Demo</a>
+                        
+                        <div class="card-visual visual-starter">
+                            <i class="fas fa-file-code"></i>
                         </div>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Basic 1-Page Layout</li>
+                            <li><i class="fas fa-check"></i> GitHub Free Domain</li>
+                            <li><i class="fas fa-check"></i> Standard Delivery</li>
+                        </ul>
                     </div>
                     
                     <!-- Basic Card -->
                     <div class="card dark-card">
                         <p class="card-eyebrow">POPULAR</p>
                         <h3 class="card-title">Basic Build</h3>
-                        <p class="card-desc">Elevated design for growing brands.</p>
                         <p class="card-price">From ₹10,999.00*</p>
+                        
+                        <div class="card-visual visual-basic">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> 4 to 5 Page Website</li>
+                            <li><i class="fas fa-check"></i> 1-Year Custom Domain</li>
+                            <li><i class="fas fa-check"></i> Elevated UI/UX Design</li>
+                        </ul>
                     </div>
 
                     <!-- Pro Card -->
                     <div class="card dark-card">
                         <p class="card-eyebrow">PRO</p>
                         <h3 class="card-title">Pro Level</h3>
-                        <p class="card-desc">Advanced features & dynamic elements.</p>
                         <p class="card-price">From ₹15,999.00*</p>
+                        
+                        <div class="card-visual visual-pro">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Up to 10 Page Website</li>
+                            <li><i class="fas fa-check"></i> 2-Year Custom Domain</li>
+                            <li><i class="fas fa-check"></i> 2 Years of Support</li>
+                            <li><i class="fas fa-check"></i> Advanced Animations</li>
+                        </ul>
                     </div>
 
                     <!-- Enterprise Card -->
                     <div class="card dark-card">
                         <p class="card-eyebrow">ULTIMATE</p>
                         <h3 class="card-title">Enterprise</h3>
-                        <p class="card-desc">High-performance architecture.</p>
                         <p class="card-price">From ₹20,999.00*</p>
+                        
+                        <div class="card-visual visual-enterprise">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> Unlimited / Custom Pages</li>
+                            <li><i class="fas fa-check"></i> 2-Year Custom Domain</li>
+                            <li><i class="fas fa-check"></i> 2 Years Dedicated Support</li>
+                            <li><i class="fas fa-check"></i> Custom Business Email</li>
+                        </ul>
                     </div>
                 </div>
                 <button class="scroll-btn right" onclick="scrollCarousel('tier-carousel', 1)"><i class="fas fa-chevron-right"></i></button>
             </div>
         </section>
 
-        <!-- Portfolio Section -->
+        <!-- Portfolio Section (Updated with images and 2 websites) -->
         <section class="carousel-section" id="portfolio">
             <div class="section-header">
                 <h2><span>Portfolio.</span> See our premium craftsmanship.</h2>
             </div>
             
             <div class="carousel-container">
+                <button class="scroll-btn left" onclick="scrollCarousel('portfolio-carousel', -1)"><i class="fas fa-chevron-left"></i></button>
                 <div class="carousel" id="portfolio-carousel">
-                    <div class="card light-card full-image-card">
-                        <h3 class="card-title">Shubhkiran Quality</h3>
-                        <p class="card-desc">Optimized for conversion and speed.</p>
-                        <a href="https://shubhkiranquality.com" target="_blank" class="circle-btn"><i class="fas fa-arrow-right"></i></a>
+                    
+                    <!-- Demo 1: Starter Pack -->
+                    <div class="card dark-card portfolio-card">
+                        <!-- High quality tech/web placeholder image -->
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="portfolio-content">
+                            <p class="card-eyebrow">STARTER PACK (₹6,599)</p>
+                            <h3 class="card-title">Hypernova AI</h3>
+                            <p class="card-desc">A sleek, fast-loading foundational website to establish your digital presence.</p>
+                            <a href="https://avixvvv.github.io/hypernova-ai/" target="_blank" class="btn">View Demo</a>
+                        </div>
                     </div>
+
+                    <!-- Demo 2: Basic Build -->
+                    <div class="card dark-card portfolio-card">
+                        <!-- High quality tech/web placeholder image -->
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="portfolio-content">
+                            <p class="card-eyebrow">BASIC BUILD (₹10,999)</p>
+                            <h3 class="card-title">Shubhkiran Quality</h3>
+                            <p class="card-desc">Elevated design optimized for conversion, user experience, and speed.</p>
+                            <a href="https://shubhkiranquality.com" target="_blank" class="btn">View Demo</a>
+                        </div>
+                    </div>
+
                 </div>
+                <button class="scroll-btn right" onclick="scrollCarousel('portfolio-carousel', 1)"><i class="fas fa-chevron-right"></i></button>
             </div>
         </section>
 
-        <!-- Contact Section (Replacing Video Specialist) -->
+        <!-- Contact Section -->
         <section class="carousel-section help-section" id="contact">
             <div class="section-header">
                 <h2><span>Help is here.</span> Whenever and however you need it.</h2>
@@ -130,4 +189,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html></html>
