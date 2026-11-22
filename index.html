@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AN NETWORK | Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="global-nav">
+        <div class="nav-content">
+            <a href="#" class="logo"><i class="fab fa-apple"></i> AN NETWORK</a>
+            <div class="nav-links">
+                <a href="#store">Store</a>
+                <a href="#tiers">Tiers</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Header Section -->
+        <header class="store-header" id="store">
+            <div class="header-content">
+                <h1><span>Store.</span> The best way to build the website you love.</h1>
+            </div>
+            <div class="header-links">
+                <a href="#contact">Connect with a Specialist <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </header>
+
+        <!-- Pricing Tiers Carousel (Replacing Products) -->
+        <section class="carousel-section" id="tiers">
+            <div class="section-header">
+                <h2><span>The latest.</span> Take a look at our web tiers.</h2>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="scroll-btn left" onclick="scrollCarousel('tier-carousel', -1)"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel" id="tier-carousel">
+                    <!-- Starter Card -->
+                    <div class="card dark-card">
+                        <p class="card-eyebrow">NEW</p>
+                        <h3 class="card-title">Starter Web</h3>
+                        <p class="card-desc">A solid foundation.</p>
+                        <p class="card-price">From ₹6,599.00*</p>
+                        <div class="card-links">
+                            <a href="https://avixvvv.github.io/hypernova-ai/" target="_blank" class="btn">View Demo</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Basic Card -->
+                    <div class="card dark-card">
+                        <p class="card-eyebrow">POPULAR</p>
+                        <h3 class="card-title">Basic Build</h3>
+                        <p class="card-desc">Elevated design for growing brands.</p>
+                        <p class="card-price">From ₹10,999.00*</p>
+                    </div>
+
+                    <!-- Pro Card -->
+                    <div class="card dark-card">
+                        <p class="card-eyebrow">PRO</p>
+                        <h3 class="card-title">Pro Level</h3>
+                        <p class="card-desc">Advanced features & dynamic elements.</p>
+                        <p class="card-price">From ₹15,999.00*</p>
+                    </div>
+
+                    <!-- Enterprise Card -->
+                    <div class="card dark-card">
+                        <p class="card-eyebrow">ULTIMATE</p>
+                        <h3 class="card-title">Enterprise</h3>
+                        <p class="card-desc">High-performance architecture.</p>
+                        <p class="card-price">From ₹20,999.00*</p>
+                    </div>
+                </div>
+                <button class="scroll-btn right" onclick="scrollCarousel('tier-carousel', 1)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="carousel-section" id="portfolio">
+            <div class="section-header">
+                <h2><span>Portfolio.</span> See our premium craftsmanship.</h2>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel" id="portfolio-carousel">
+                    <div class="card light-card full-image-card">
+                        <h3 class="card-title">Shubhkiran Quality</h3>
+                        <p class="card-desc">Optimized for conversion and speed.</p>
+                        <a href="https://shubhkiranquality.com" target="_blank" class="circle-btn"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (Replacing Video Specialist) -->
+        <section class="carousel-section help-section" id="contact">
+            <div class="section-header">
+                <h2><span>Help is here.</span> Whenever and however you need it.</h2>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel single-item">
+                    <div class="card dark-card specialist-card">
+                        <div class="card-text-content">
+                            <h3 class="card-title">Connect with a Specialist</h3>
+                            <p class="card-desc">Choose your next web tier in a guided chat session.</p>
+                            <div class="contact-details">
+                                <p><i class="fas fa-envelope"></i> annetworkxo@gmail.com</p>
+                                <p><i class="fas fa-phone"></i> +91 9529512571</p>
+                            </div>
+                            <a href="https://wa.me/919529512571" target="_blank" class="btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Copyright © 2026 AN NETWORK Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
